@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.seach {
+    text-align: center;
+    width: 80%;
+    margin: 10px 50px;
+    padding: 20px 10px;
+}
+
+.list {
+    width: 80%;
+    margin: 0 50px;
+    padding: 10px;
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 160px;
+    margin-right: 20px;
+}
+
+.elem {
+    margin: 5px;
+    min-width: 75%;
+    min-height: 100px;
+    border:1px solid black;
+    padding: 5px;
+    padding-right: 15px;
+    border-radius: 5px;
+    position: relative;
+    text-align: justify; 
+}
+
+.year {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    
+}
+
+/*.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}*/
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    min-width: 40%;
+}
+
+.btn {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 5px;
+    background-image: url('https://im0-tub-ua.yandex.net/i?id=456f15e9d045841ed2a9814656847352&n=33&h=215&w=215');
+    background-size: cover;
+    transition: transform .2s;
+}
+
+.contents { 
+    height: 80px;
+    overflow: hidden;
+    padding:3px;
+}
+
+.open {
+    transform: rotate(90deg);
+}
+
+.open-text {
+    height: auto;
+}
